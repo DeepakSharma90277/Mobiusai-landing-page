@@ -1,0 +1,61 @@
+/* Section */
+.why-choose-section {
+  padding: 4rem 2rem;
+  background: #f6f9ff;
+  text-align: center;
+}
+
+/* Title */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #002FCC;
+  margin-bottom: 3rem;
+}
+
+/* Cards Container */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .cards-container {
+    flex-direction: row;
+  }
+}
+
+/* Individual Card */
+.choose-card {
+  background: white;
+  border: 2px solid  #230c68;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 71, 255, 0.1);
+}
+
+/* Icon Styling */
+.icon-wrapper {
+  color: #230c68;
+  margin-bottom: 1rem;
+}
+
+/* Title Styling */
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color:  #230c68;
+  margin-bottom: 1rem;
+}
+
+/* Description Styling */
+.card-description {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.5;
+}

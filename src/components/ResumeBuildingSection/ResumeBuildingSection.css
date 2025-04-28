@@ -1,0 +1,36 @@
+/* ResumeBuildingSection.css */
+
+.resume-building-section {
+    width: 100%;
+    padding: 2rem 1rem;
+    border-top: 1px solid #e5e7eb; /* Light gray top border */
+  }
+  
+  .resume-building-header {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .resume-building-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0047FF; /* Blue color */
+    margin-bottom: 0.5rem;
+  }
+  
+  .resume-building-description {
+    font-size: 0.95rem;
+    color: #6b7280; /* Gray text */
+  }
+  
+  .resume-building-description a {
+    color: #0047FF;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .resume-building-description a:hover {
+    text-decoration: underline;
+  }
+  

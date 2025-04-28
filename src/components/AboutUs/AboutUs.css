@@ -1,0 +1,109 @@
+.about-section {
+  background: linear-gradient(180deg, #010824 0%, #0649E7 100%);
+  padding: 80px 20px;
+  color: white;
+  font-family: 'Sora', sans-serif;
+}
+
+.about-title {
+  font-size: 1.75rem;
+  text-align: left;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.about-card {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.profile-img {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.linkedin-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(25%, 25%);
+  background: #3B3B3B;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.profile-text {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.profile-text strong {
+  font-weight: bold;
+}
+
+.about-links {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 29rem;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.about-links a {
+  color: white;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.about-links a:hover {
+  color: #FFC72C;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-img {
+    margin-bottom: 20px;
+  }
+
+  .about-title, .about-links {
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+}

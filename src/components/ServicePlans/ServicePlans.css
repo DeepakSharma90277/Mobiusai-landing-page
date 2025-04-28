@@ -1,0 +1,16 @@
+.service-plans {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .service-plans-link {
+    font-size: 2rem;
+    color: #0050f5;
+    font-weight: bold;
+    text-decoration: none; /* removes underline */
+  }
+  
+  .service-plans-link:hover {
+    text-decoration: underline; /* add underline on hover */
+  }
+  
