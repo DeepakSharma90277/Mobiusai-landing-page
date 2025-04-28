@@ -1,8 +1,11 @@
+
 ### MobiusAI Landing Page
 A clean, modern, and fully responsive Landing Page for MobiusAI, built using React, Vite, and CSS.
+
 This project is designed to be fast, lightweight, and ready for deployment on any static hosting platform like Vercel, Netlify, or GitHub Pages.
 
 ### Tech Stack
+
 React – Frontend Framework
 Vite – Lightning fast bundler
 CSS – For styling
