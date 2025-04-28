@@ -1,20 +1,37 @@
-# React + Vite
+### MobiusAI Landing Page
+A clean, modern, and fully responsive Landing Page for MobiusAI, built using React, Vite, and CSS.
+This project is designed to be fast, lightweight, and ready for deployment on any static hosting platform like Vercel, Netlify, or GitHub Pages.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Tech Stack
+React – Frontend Framework
+Vite – Lightning fast bundler
+CSS – For styling
+React Icons – For SVG icons
+ESLint + Prettier – Code quality and formatting
 
-Currently, two official plugins are available:
+### Folder Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+mobiusai-landing-page/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── assets/       # Static images and icons
+│   ├── components/   # Reusable components (Navbar, About, Testimonials, etc.)
+│   ├── App.jsx       # Main app layout
+│   ├── main.jsx      # Entry point
+│   └── index.css     # Global styles
+├── .gitignore
+├── index.html        # Main HTML file
+├── package.json      # Project metadata and scripts
+├── vite.config.js    # Vite configuration
+└── README.md         # Project documentation (this file)
 
-## Expanding the ESLint configuration
+### Project Setup Instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-## Project Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/DeepakSharma90277/Mobiusai-landing-page.git
-cd Mobiusai-landing-page
+1. Clone the Repository
+   . git clone https://github.com/DeepakSharma90277/Mobiusai-landing-page.git
+   . cd Mobiusai-landing-page
+2. Install Dependencies
+   . npm install
+3. Run the Development Server
+   . npm run dev
